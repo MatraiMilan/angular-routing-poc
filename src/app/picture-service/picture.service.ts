@@ -16,6 +16,18 @@ export class PictureService {
     {
       link: 'http://astromatrix.org/Content/Images/Objects/Bird.jpg',
       alt: 'bird'
+    },
+    {
+      link: 'https://www.committedgiving.uk.net/fauna-flora/cghub/data/images/sumatran_tiger-Brian_McKay.jpg',
+      alt: 'tiger'
+    },
+    {
+      link: 'https://blog.oxforddictionaries.com/wp-content/uploads/zebra.jpg',
+      alt: 'zebra'
+    },
+    {
+      link: 'https://www.madamasr.com/wp-content/uploads/2016/11/Nile_Crocodile_uhd-1024x576.jpg',
+      alt: 'crocodile'
     }
   ];
 

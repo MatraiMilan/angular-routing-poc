@@ -1,0 +1,8 @@
+.full-screen {
+    height: 100%;
+}
+
+.content-full-screen {
+    min-height: 80%;
+    width: 100%;
+}

@@ -1,8 +1,5 @@
-<h1>Pictures</h1>
-<div *ngFor="let image of images">
-    <a 
-         href="{{image.link}}" target="_blank">
-            <img src="{{image.link}}"
-                alt="{{image.alt}}">
-    </a>
+<h1 class="pictures-title">Pictures</h1>
+<div class="flex-container">
+    <app-picture *ngFor="let image of images" [image]="image">
+    </app-picture>
 </div>

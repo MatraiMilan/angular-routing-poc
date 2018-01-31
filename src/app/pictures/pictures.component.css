@@ -1,9 +1,9 @@
-img {
-    max-width: 25rem;
-    filter: grayscale(60%);
-    transition: filter .3s linear;
+.pictures-title {
+    margin-left: 8.5rem;
 }
 
-img:hover {
-    filter: grayscale(0%);
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 8rem;
 }
