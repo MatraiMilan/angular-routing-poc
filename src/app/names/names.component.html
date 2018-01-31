@@ -1,0 +1,6 @@
+<h1>Names</h1>
+<a *ngFor="let user of users" 
+    [routerLink]="['/user-details', user.name]" 
+    routerLinkActive="active">
+    <h3>{{user.name}}</h3>  
+</a>

@@ -1,0 +1,9 @@
+img {
+    max-width: 25rem;
+    filter: grayscale(60%);
+    transition: filter .3s linear;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}

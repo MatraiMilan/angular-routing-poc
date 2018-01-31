@@ -1,0 +1,8 @@
+<h1>Pictures</h1>
+<div *ngFor="let image of images">
+    <a 
+         href="{{image.link}}" target="_blank">
+            <img src="{{image.link}}"
+                alt="{{image.alt}}">
+    </a>
+</div>

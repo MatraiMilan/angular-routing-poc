@@ -1,0 +1,22 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 10rem;
+}
+
+.menu-row {
+    margin-top: 2rem;
+    min-width: 16rem;
+}
+
+.menu-row .btn {
+    width: 10rem;
+    font-size: 1.4rem;
+    transition: width .3s linear;
+    box-shadow: .2rem .3rem .8rem lightgray;
+}
+
+.menu-row .btn:hover {
+    width: 12rem;
+}
