@@ -14,11 +14,11 @@ export class PictureService {
       alt: 'dog'
     },
     {
-      link: 'http://astromatrix.org/Content/Images/Objects/Bird.jpg',
-      alt: 'bird'
+      link: 'https://youtopiaproject.com/wp-content/uploads/2015/08/Owl.jpg',
+      alt: 'owl'
     },
     {
-      link: 'https://www.committedgiving.uk.net/fauna-flora/cghub/data/images/sumatran_tiger-Brian_McKay.jpg',
+      link: 'http://cdn.tigers-world.com/wp-content/uploads/Siberian_species.jpg',
       alt: 'tiger'
     },
     {
