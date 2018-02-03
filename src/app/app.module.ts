@@ -13,6 +13,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UserServiceService } from './user-service/user-service.service';
 import { PictureComponent } from './pictures/picture/picture.component';
+import { UserDetailGuardService } from './router-guards/user-detail-guard.service';
 
 
 @NgModule({
@@ -33,13 +34,16 @@ import { PictureComponent } from './pictures/picture/picture.component';
       {path: 'pictures', component: PicturesComponent},
       {path: 'names', component: NamesComponent},
       {path: 'music', component: MusicComponent},
-      {path: 'user-details/:userName', component: UserDetailsComponent},
+      {path: 'user-details/:userName', component: UserDetailsComponent, canActivate: [UserDetailGuardService]},
       {path: 'welcome', component: WelcomeComponent},
       {path: '', redirectTo: 'welcome', pathMatch: 'full'},
       {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
     ])
   ],
-  providers: [UserServiceService],
+  providers: [
+    UserServiceService,
+    UserDetailGuardService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

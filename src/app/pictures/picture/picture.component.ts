@@ -21,7 +21,6 @@ import { AfterViewInit } from '@angular/core/src/metadata/lifecycle_hooks';
   ]
 })
 export class PictureComponent implements OnInit {
-
   @Input() image: ImageInterface;
   state: string;
 
